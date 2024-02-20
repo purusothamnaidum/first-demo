@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire/surefirebooter-20240220203554344_3.jar /Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire 2024-02-20T20-35-54_298-jvmRun1 surefire-20240220203554344_1tmp surefire_0-20240220203554344_2tmp"/>
+    <property name="sun.java.command" value="/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire/surefirebooter-20240220205152016_3.jar /Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire 2024-02-20T20-51-51_975-jvmRun1 surefire-20240220205152016_1tmp surefire_0-20240220205152016_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/test-classes:/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/classes:/Users/kalyanreddy/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire/surefirebooter-20240220203554344_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/kalyanreddy/drilldevops/git-repos/java-apps/first-demo/target/surefire/surefirebooter-20240220205152016_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1"/>
@@ -55,8 +55,9 @@
     <property name="java.vendor" value="Homebrew"/>
     <property name="java.vm.version" value="21.0.1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.repo.local" value="/Users/kalyanreddy/.m2/repository"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.drilldevops.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="com.drilldevops.AppTest" time="0.001"/>
 </testsuite>
