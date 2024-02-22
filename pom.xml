@@ -34,18 +34,6 @@
             <artifactId>sonar-maven-plugin</artifactId>
             <version>YOUR_VERSION</version>
       </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <useReleaseProfile>false</useReleaseProfile>
-                    <releaseProfiles>release</releaseProfiles> <!-- Maven profile for release builds -->
-                    <goals>deploy</goals> <!-- Ensure artifacts are deployed -->
-                </configuration>
-            </plugin>
     </plugins>
   </build>
       <distributionManagement>
@@ -79,11 +67,5 @@
             </activation>
         </profile>
     </profiles> 
-<scm>
-    <connection>scm:git:https://github.com/kalyanreddyc/first-demo.git</connection>
-    <developerConnection>scm:git:https://github.com/kalyanreddyc/first-demo.git</developerConnection>
-    <url>https://github.com/kalyanreddyc/first-demo.git</url>
-    <!---tag>HEAD</tag------>
-</scm>
 
 </project>
