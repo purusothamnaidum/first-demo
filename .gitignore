@@ -2,3 +2,5 @@
 .vscode/*
 target
 target/*
+~/*
+~/.m2/*
