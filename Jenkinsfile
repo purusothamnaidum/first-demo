@@ -13,8 +13,7 @@ pipeline {
         stage('Print'){
             steps{
         sh '''ls -ltr
-        touch test.txt
-        mkdir drilldevops'''
+        touch test.txt'''
             }
         }
     }
