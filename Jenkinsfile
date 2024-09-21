@@ -30,6 +30,7 @@ pipeline {
                         dir("$WORKSPACE") {
                             sh """
                             mvn clean package
+                            echo "test"
                             """
                         }
                     }
